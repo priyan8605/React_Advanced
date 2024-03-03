@@ -2,7 +2,7 @@ import Random from "./components/Random"
 import Tag from './components/Tag'
 export default function App() {
   return (
-     <div className="w-full h-screen flex flex-col background relative items-center ">
+     <div className=" w-full  flex flex-col background relative items-center  ">
           <h1 className='absolute bg-white rounded-lg  w-11/12 text-center mt-[40px] 
            px-10 py-2 text-4xl font-bold '>
             RANDOM GIFS
