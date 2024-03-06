@@ -1,6 +1,6 @@
 import React  , { useContext }  from "react";
-import { AppContext } from "../context/AppContext";
-import Spinner from './Spinner'
+import { AppContext } from "../context/AppContext.js";
+import Spinner from './Spinner.jsx'
 
 export default function Blogs()
 {
@@ -9,7 +9,7 @@ export default function Blogs()
    // now Blogs component will consume "loading"
    const {posts,loading} =useContext(AppContext);//syntax for consuming the context of loading,posts
    return(
-       <div className="flex flex-col gap-y-10 my-4">
+       <div className=" flex flex-col h-full gap-y-10 my-4 justify-center items-center">
            { loading ? (<Spinner/>): 
          ( posts.length === 0 ? (
           <div className="min-h-[80vh] w-full flex justify-center items-center">

@@ -28,7 +28,7 @@ import { AppContext } from "../context/AppContext";
                 ) 
             }
             <p className="text-sm font-semibold ml-auto">
-                Page {page} of {totalPages};
+                Page {page} of {totalPages}
             </p>
            </div>
         </div>
